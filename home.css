@@ -1,0 +1,1082 @@
+*{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.top_clear{
+    background-color: #222529;
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    color: #ffff;
+    text-align:center;
+    font-weight: 500;
+    font-size: .9286em;
+    line-height: 1.4;
+    letter-spacing: .050em;
+    padding: 10px;
+}
+.text{
+    font-family:sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.small_word{
+    color: #777;
+    font-size: 1em;
+}
+.m1{
+    font-size: 10px;
+    font-weight: bold;
+    background-color:black;
+    height: 30px;
+    width: 55px;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 0.5rem ;
+}
+.m1:hover{
+    color: white;
+}
+.main_panel{
+    background-color: #65829d;
+    background-size: cover;
+    align-items: center;
+    color: #c6d0d9;
+    font-size: 11px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#list{
+    width: 8%;
+    border: #222529;
+    text-align: center;
+    border-radius: 6px;
+    overflow: hidden;
+    font-size: 15px;
+    font-family:sans-serif ;
+}
+.options{
+    list-style: none;
+    border: #222529;
+    width: 70%;
+    height: -2px;
+    background: red;
+    border: 1px solid black;
+    font-family:sans-serif;
+    font-size: 11px;
+    padding-top: 10px;
+    padding-bottom: -2px;
+    margin-top: 3px;
+    margin-left: 15px;
+}
+div .options:before{
+    position: absolute;
+    content: '';
+    height: 15px;
+    width: 15px;
+    background:rgb(201, 29, 29);
+    left: 25px;
+    top: 12%;
+    transform: rotate(45deg);
+}
+.links{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5px;
+    font-size: 11px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+}
+.link .links a{
+    text-decoration: none;
+    color: #c6d0d9;
+}
+.share{
+    display: flex;
+    flex-direction: row;
+}
+.share-link{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #65829d;
+    margin: 0px 5px 5px 10px;
+    margin-left: -3px;
+    text-align: center;
+    top: 1px;
+    border-radius: 50%;
+    color: #fff;
+}
+.fa-brands{
+    padding: 7px;
+    margin-top: -3px;
+}
+.facebook:hover{
+    background: #4267B2;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.twitter:hover{
+    background: #00acee;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.instagram:hover{
+    background: #d62976;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.navbar{
+    background-color: #00acee;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+.logo{
+    width: 90px;
+    height: 35px;
+}
+.nav_content{
+    font-weight: 15px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+.box_small{
+    position: absolute;
+    content: '';
+    height: 15px;
+    width: 15px;
+    background:lightblue;
+    left: 35%;
+    top: 55%;
+    transform: rotate(45deg);
+}
+.categories_list{
+    width: 660px;
+    height: 300px;
+    background-color: lightblue;
+    margin-top: 15px;
+    left: 25px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    padding: 15px;
+    display: none;
+    color: #777;
+}
+/* .categories{
+    display: none;
+    color: #777;
+} */
+.categories_dropdown:hover + .categories_list{
+    display: block;
+    position: fixed;
+   
+}
+.categories_dropdown li a:hover{
+    color: #777;
+}
+.categories_dropdown_image{
+    width: 35%;
+    height: 100%;
+}
+.categories_var{
+    margin-right: 40px;
+}
+.categories a {
+    color: #777;
+    padding-top: 15px;
+}
+.new{
+    position: absolute;
+    content: '';
+    height: 5px;
+    width: 5px;
+    background:rgb(10, 172, 18);
+    transform: rotate(45deg);
+}
+.new_card{
+    width: 30px;
+    height: 15px;
+    background-color: rebeccapurple;
+    font-size: 10px;
+    border-radius: 2px;
+}
+
+/* after nav bar */
+.image_container{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    margin-left: 100px;
+}
+.image1_card{
+    background-image: url('https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/07/shop7_home_banner1.jpg');
+    height: 500px;
+    width: 580px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 30px;
+    padding-bottom: 30px;
+}
+.image1_card h5{
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.image1_card h3{
+    font-family: Segoe Script;
+    font-weight: 700;
+    font-size: 2em;
+    color: #ffffff;
+}
+.image1_card h4{
+    font-family: Dubai Medium;
+    font-weight: 700;
+    font-size: 80px;
+    color: #ffffff;
+}
+.image1_flex_starting{
+    display: flex;
+    flex-direction: row;
+}
+.image1_card h2{
+    font-family: Poppins,sans-serif;
+    font-weight: 800;
+    font-size: 10px;
+    color: #ffffff;
+    padding-right: 9px;
+}
+.image1_card .image1_cd_price_cd{
+    height: 35px;
+    width: 70px;
+    background-color: rgb(245, 84, 84);
+    color: #ffffff;
+    padding-left: 5px;
+    font-family: Segoe UI Black;
+    font-size: 14px;
+    font-weight: 800;
+    transform: rotate(-2deg);
+}
+.image1_card .image1_cd_price_cd b{
+    display: flex;
+    flex-direction: row;
+    padding-top: -15px;
+}
+.image1_card .image1_shop{
+    width: 155px;
+    height: 55px;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Poppins,sans-serif;
+    font-weight: 800;
+    padding: 20px;
+    padding-left: 38px;
+    margin-top: 10px;
+}
+.image2_card{
+    margin-left: 20px;
+}
+.sub1{
+    background-image: url('https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/07/shop7_home_banner2.jpg');
+    height: 220px;
+    width: 270px;
+    background-size: cover;
+    padding: 25px;
+}
+.sub1 h1{
+    font-family: Poppins,sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: black;
+}
+.sub1 .sub1_txt{
+    display: flex;
+    flex-direction: row;
+}
+.sub1 .sub1_txt p{
+    color: black;
+    font-size: 20px;
+    font-family: Poppins,sans-serif;
+    font-weight: 900;
+    text-decoration: line-through;
+}
+.sub1 .sub1_txt h1{
+    color: rgb(245, 84, 84);
+    font-size: 28px;
+    font-family: Poppins,sans-serif;
+    font-weight: 900;
+}
+.sub1 .sub1_txt sub{
+    color: rgb(245, 84, 84);
+    font-size: 18px;
+    font-family: Poppins,sans-serif;
+    font-weight: 900;
+    top: 14px;
+}
+.image2_card .sub1 a{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 11px;
+    font-family: Poppins,sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 12px;
+    padding-left: 17px;
+}
+.image2_card .sub1 img{
+    height: 15px;
+    width: 40px;
+    margin-top: 40px;
+}
+.sub2_border{
+    border: 10px solid #65829d;
+    width: 270px;
+    margin-top: 20px;
+}
+.sub2{
+    background-image: url('https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/07/shop7_home_banner3.jpg');
+    height: 240px;
+    width: 250px;
+    background-size: cover;
+    padding: 25px;
+}
+.sub2 .dis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sub2_dis1{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: black;
+    color: #ffffff;
+    font-family: Dubai Medium;
+}
+.sub2 .sub2_dis1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px;
+    padding-top: 15px;
+}
+.sub2 .sub2_dis1 h1{
+    font-size: 18px;
+    font-weight: 800;
+}
+.sub2 .sub2_dis1 .sub2_pec1{
+    padding-top: 9px;
+    font-size: 8px;
+}
+.sub2_dis2{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: black;
+    color: #ffffff;
+    font-family: Dubai Medium;
+}
+.sub2 .sub2_dis2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px;
+    padding-top: 15px;
+}
+.sub2 .sub2_dis2 h1{
+    font-size: 10px;
+    font-weight: 800;
+}
+.sub2 .sub2_dis2 .sub2_pec2{
+    padding-top: 10px;
+    font-size: 5px;
+}
+.image2_card .sub2 .sub2_txt{
+    padding-top: 5px;
+}
+.image2_card .sub2 .sub2_txt h1{
+    font-family: Dubai Medium;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    color: black;
+}
+.image2_card .sub2 .sub2_txt h2{
+    font-family: Dubai Medium;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #777;
+}
+.image2_card .sub2 .sub2_txt a{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 11px;
+    font-family: Poppins,sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 12px;
+    padding-left: 17px;
+    margin: 20px;
+    margin-left: 50px;
+}
+.sub2_dis3{
+    width: 25px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: black;
+    color: #ffffff;
+    font-family: Dubai Medium;
+    margin-left: 170px;
+    margin-top: -10px;
+}
+.sub2 .sub2_dis3{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding: 6px;
+    padding-top: 17px;
+    padding-left: 5px;
+}
+.sub2 .sub2_dis3 h1{
+    font-size: 10px;
+    font-weight: 800;
+}
+.sub2 .sub2_dis3 .sub2_pec3{
+    padding-top: 10px;
+    font-size: 5px;
+}
+.image3_card{
+    background-image: url('https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/07/shop7_home_banner4.jpg');
+    width: 250px;
+    height: 500px;
+    background-size: cover;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.image3_card .sub h1{
+    font-family: Dubai Medium;
+    font-size: 27px;
+    font-weight: 600;
+    color: #ffffff;
+    transform: rotate(-2deg);
+}
+.image3_card .sub .sub_txt{
+    display: flex;
+    flex-direction: row;
+    transform: rotate(-2deg);
+    margin-left: -15px;
+    margin-bottom: 5px;
+}
+.image3_card .sub .sub_txt p{
+    font-size: 11px;
+    font-family: Dubai Medium;
+    color: #777;
+    font-weight: 700;
+    transform: rotate(-90deg);
+    padding-right: 12px;
+
+}
+.image3_card .sub .sub_txt .dis{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(245, 84, 84);
+    color: #ffffff;
+    margin-left: -8px;
+    margin-top: -2px;
+
+}
+.image3_card .sub .sub_txt .dis h2{
+    font-family: Dubai Medium;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 4px;
+}
+.image3_card .sub .sub_txt h1{
+    font-family: Dubai Medium;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 2px;
+}
+.image3_card .sub a{
+    width: 200px;
+    height: 50px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 12px;
+    font-family: Dubai Medium;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+/* FEATURED PRODUCTS */
+.FEATURED{
+    margin-left:100px ;
+    margin-right: 110px;
+}
+.card_container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+/* card1 */
+.container {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    width: 270px;
+    height: 420px;
+    padding-left: 0px;
+    margin-right: -20px;
+    /* border: solid black; */
+    overflow: hidden;
+    background-color: white;
+  }
+.discount_card .discount_price{
+    background-color: #e27c7c;
+    padding: 5px 11px;
+    margin-bottom: 5px;
+}
+.discount_price{
+    line-height: 1;
+    color: #fff;
+    font-weight: 600;
+    font-size: 10px;
+    position: absolute;
+    top: 0.8em;
+    left: 0.8em;
+    z-index: 2;
+    align-items: center;
+}
+.button:hover{
+    background-color: #65829d;
+    color:white ;
+    transition: 1s;
+}
+.button {
+    background-color:#84a2bd ;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    width: 270px;
+    height: 45px;
+    left:0;
+    top: 35px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+    padding: 0%;
+    margin-top: 190px;
+    border-width: 0px;
+    
+  }
+.container:hover .button {
+    opacity: 1;
+    text-transform: uppercase;
+    transition: 1s;
+    margin-bottom: 2px;
+     
+  }
+.figure {
+    position: relative;
+    height: 270px ;
+    overflow: hidden;
+  }
+.figure img.Sirv.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin-top: 19px;
+    opacity: 0;
+    transition: opacity .2s;
+    transition: all 1s;
+    width: 270px;
+    height: 270px;   
+  }
+.figure img.Sirv.image-main{
+    width:270px;
+    height: 270px;
+  }
+.figure:hover img.Sirv.image-hover {
+    opacity: 1;
+    transform: scale(1.11);
+ }
+ .card_text a{
+    font-size: 18px;
+    font-family: Dubai Medium;
+    font-weight: 400;
+    padding-top: 5px;
+    text-decoration: none;
+    color: #222529;
+ }
+ .card_text a:hover{
+    color:#84a2bd;
+ }
+ .card_text p{
+    font-size: 12px;
+    padding-top: 5px;
+ }
+ .card_text .card_price{
+    display: flex;
+    flex-direction: row;
+ }
+ .card_text .card_price h1{
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: line-through;
+    color: #a7a7a7;
+ }
+ .card_text .card_price sub{
+    font-size: 20px;
+    font-weight: 700;
+    color: #222529;
+    top: 8px;
+ }
+.container:hover .qwert {
+    z-index: 2;
+    display: block;
+    transition: 4s;
+    opacity: 1;
+ }
+.qwert{
+    display: none;
+    position: absolute;
+    margin-left: 125px;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid black;
+    padding-left: 9px;
+    width: 35px;
+    height: 35px;     
+}
+.container:hover .qwert1 {
+    z-index: 2;
+    display: block;
+    transition: 4s;
+    opacity: 1;
+  }
+.qwert:hover{
+    background-color: #65829d;
+    color: #fff;
+}  
+.qwert1{
+    display: none;
+    position: absolute;
+    margin-left: 165px;
+    border: 1px solid black;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    padding-left: 5px;
+}
+.qwert1:hover{
+    background-color: #65829d;
+    color: #fff;
+} 
+.addto{
+  width: 120px;
+  height: 35px;
+  background-color: #a7a7a7;
+  border: 0px;
+  color: black;
+  font-family: Dubai Medium;
+  font-size: 13px;
+  font-weight: 700;
+}
+.container:hover .addto{
+  background-color: #65829d;
+  color: white;
+}
+.add_card{
+  display: flex;
+  flex-direction: row;
+  padding-top: 12px;
+}
+/* card1 end */
+
+/* BROWSE OUR CATEGORIES */
+.BROWSE_OUR_CATEGORIES{
+    background-color: #65829d;
+    width: 100%;
+    height: 385px;
+    margin-bottom: 40px;
+    padding: 50px;
+    padding-left: 100px;
+}
+.BROWSE_OUR_CATEGORIES .txt_design{
+    display: flex;
+    flex-direction: row;
+}
+.BROWSE_OUR_CATEGORIES .txt_design h1{
+    font-family: Dubai Medium;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.BROWSE_OUR_CATEGORIES .txt_design p{
+    color: #ffffff;
+    margin-top: -10px;
+}
+/* BROWSE_card1 */
+.BROWSE_container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.BROWSE_card1{
+    background-image: url('https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/07/shop7_cat1.jpg');
+    height:235px ;
+    width:270px ;
+    background-size: cover;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.BROWSE_card1:hover{
+    opacity: 0.5;
+}
+.BROWSE_card1 h2{
+    font-size: 20px;
+    color: #222529;
+    font-family: 700;
+    padding-left: 30px;
+}
+.BROWSE_card1 p{
+    font-size: 10px;
+    color: #222529;
+    padding-left: 30px;
+}
+.BROWSE_card2{
+    background-image: url('https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/07/shop7_cat2.jpg');
+    height:235px ;
+    width:270px ;
+    background-size: cover;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.BROWSE_card2:hover{
+    opacity: 0.5;
+}
+.BROWSE_card2 h2{
+    font-size: 20px;
+    color: #222529;
+    font-family: 700;
+    padding-left: 30px;
+}
+.BROWSE_card2 p{
+    font-size: 10px;
+    color: #222529;
+    padding-left: 30px;
+}
+.BROWSE_card3{
+    background-image: url('https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/07/shop7_cat3.jpg');
+    height:235px ;
+    width:270px ;
+    background-size: cover;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.BROWSE_card3:hover{
+    opacity: 0.5;
+}
+.BROWSE_card3 h2{
+    font-size: 20px;
+    color: #222529;
+    font-family: 700;
+    padding-left: 30px;
+}
+.BROWSE_card3 p{
+    font-size: 10px;
+    color: #222529;
+    padding-left: 30px;
+}
+.BROWSE_card4{
+    background-image: url('https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/07/shop7_cat4.jpg');
+    height:235px ;
+    width:270px ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.BROWSE_card4:hover{
+    opacity: 0.5;
+}
+.BROWSE_card4 h2{
+    font-size: 20px;
+    color: #222529;
+    font-family: 700;
+    padding-left: 30px;
+}
+.BROWSE_card4 p{
+    font-size: 10px;
+    color: #222529;
+    padding-left: 30px;
+}
+/* just_arrived */
+.just_arrived_card1{
+    display: flex;
+    flex-direction: row;
+}
+.just_arrived_container {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 220px;
+    height: 300px;
+    padding-left: 0px;
+    margin-right: -20px;
+    /* border: solid black; */
+    overflow: hidden;
+    background-color: white;
+  }
+.just_arrived_discount_card .just_arrived_discount_price{
+    background-color: #e27c7c;
+    padding: 5px 11px;
+    margin-bottom: 5px;
+}
+.just_arrived_discount_price{
+    line-height: 1;
+    color: #fff;
+    font-weight: 600;
+    font-size: 10px;
+    position: absolute;
+    top: 0.8em;
+    left: 0.8em;
+    z-index: 2;
+    align-items: center;
+}
+.just_arrived_button:hover{
+    background-color: #65829d;
+    color:white ;
+    transition: 1s;
+}
+.just_arrived_button {
+    background-color:#84a2bd ;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    width: 220px;
+    height: 45px;
+    left:0;
+    top: -15px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+    padding: 0%;
+    margin-top: 190px;
+    border-width: 0px;
+    
+  }
+.just_arrived_container:hover .just_arrived_button {
+    opacity: 1;
+    text-transform: uppercase;
+    transition: 1s;
+    margin-bottom: 2px;
+     
+  }
+.just_arrived_figure {
+    position: relative;
+    height: 220px ;
+    overflow: hidden;
+  }
+.just_arrived_figure img.Sirv.just_arrived_image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin-top: 19px;
+    opacity: 0;
+    transition: opacity .2s;
+    transition: all 1s;
+    width: 220px;
+    height: 220px;   
+  }
+.just_arrived_figure img.Sirv.just_arrived_image-main{
+    width: 220px;
+    height: 220px;
+  }
+.just_arrived_figure:hover img.Sirv.just_arrived_image-hover {
+    opacity: 1;
+    transform: scale(1.11);
+ }
+ .just_arrived_card_text a{
+    font-size: 15px;
+    font-family: Dubai Medium;
+    font-weight: 400;
+    text-decoration: none;
+    color: #222529;
+ }
+ .just_arrived_card_text a:hover{
+    color:#84a2bd;
+ }
+ .just_arrived_card_text p{
+    font-size: 10px;
+ }
+ .just_arrived_card_text .just_arrived_card_price{
+    display: flex;
+    flex-direction: row;
+ }
+ .just_arrived_card_text .just_arrived_card_price h1{
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: line-through;
+    color: #a7a7a7;
+ }
+ .just_arrived_card_text .just_arrived_card_price sub{
+    font-size: 15px;
+    font-weight: 700;
+    color: #222529;
+    top: 8px;
+ }
+/* bottom_card */
+.best_sales{
+    
+display: flex;
+flex-direction: row;
+    margin-top: 30px;
+   padding-left: 80px;
+}
+.bottom_card_container {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    margin-right: 3px;
+    width: 370px;
+    /* border: solid black; */
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+  }
+.bottom_card_discount_card .bottom_card_discount_price{
+    background-color: #e27c7c;
+    padding: 5px 11px;
+    margin-bottom: 5px;
+}
+.bottom_card_discount_price{
+    line-height: 1;
+    color: #fff;
+    font-weight: 600;
+    font-size: 10px;
+    position: absolute;
+    top: 0.8em;
+    left: 0.8em;
+    z-index: 2;
+    align-items: center;
+}
+.bottom_card_figure {
+    position: relative;
+    height: 170px ;
+    overflow: hidden;
+  }
+.bottom_card_figure img.Sirv.bottom_card_image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin-top: 19px;
+    opacity: 0;
+    transition: opacity .2s;
+    transition: all 1s;
+    width: 170px;
+    height: 170px;   
+  }
+.bottom_card_figure img.Sirv.bottom_card_image-main{
+    width: 170px;
+    height: 170px;
+  }
+.bottom_card_figure:hover img.Sirv.bottom_card_image-hover {
+    opacity: 1;
+    transform: scale(1.11);
+ }
+ .bottom_card_card_text{
+    margin: 10px;
+    margin-top: 30px;
+ }
+ .bottom_card_card_text a{
+    font-size: 18px;
+    font-family: Dubai Medium;
+    font-weight: 400;
+    text-decoration: none;
+    color: #222529;
+ }
+ .bottom_card_card_text a:hover{
+    color:#84a2bd;
+ }
+ .bottom_card_card_text p{
+    font-size: 10px;
+ }
+ .bottom_card_card_text .bottom_card_card_price{
+    display: flex;
+    flex-direction: row;
+ }
+ .bottom_card_card_text .bottom_card_card_price h1{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: line-through;
+    color: #a7a7a7;
+ }
+ .bottom_card_card_text .bottom_card_card_price sub{
+    font-size: 18px;
+    font-weight: 700;
+    color: #222529;
+    top: 8px;
+ }
